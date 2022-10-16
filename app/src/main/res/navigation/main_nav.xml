@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav"
+    app:startDestination="@id/transactionsFragment">
+    <fragment
+        android:id="@+id/transactionsFragment"
+        android:name="com.example.transakcje.ui.transactions_fragment.TransactionsFragment"
+        android:label="transactions_fragment"
+        tools:layout="@layout/transactions_fragment" />
+    <fragment
+        android:id="@+id/incomeTransactionFragment"
+        android:name="com.example.transakcje.ui.income_fragment.IncomeTransactionFragment"
+        android:label="income_fragment"
+        tools:layout="@layout/income_fragment" />
+    <fragment
+        android:id="@+id/outcomeTransactionFragment"
+        android:name="com.example.transakcje.ui.outcome_fragment.OutcomeTransactionFragment"
+        android:label="outcome_fragment"
+        tools:layout="@layout/outcome_fragment" />
+    <fragment
+        android:id="@+id/addTransactionFragment"
+        android:name="com.example.transakcje.ui.add_fragment.AddTransactionFragment"
+        android:label="add_transaction_fragment"
+        tools:layout="@layout/add_transaction_fragment" />
+    <fragment
+        android:id="@+id/editTransactionFragment"
+        android:name="com.example.transakcje.ui.edit_fragment.EditTransactionFragment"
+        android:label="edit_transaction_fragment"
+        tools:layout="@layout/edit_transaction_fragment" />
+</navigation>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:icon="@drawable/ic_cart_tick"
+        android:title=""
+        android:id="@id/transactionsFragment"/>
+    <item
+        android:icon="@drawable/ic_wallet_add"
+        android:title=""
+        android:id="@id/incomeTransactionFragment"/>
+    <item
+        android:icon="@drawable/ic_wallet__remove"
+        android:title=""
+        android:id="@id/outcomeTransactionFragment"/>
+
+</menu>
