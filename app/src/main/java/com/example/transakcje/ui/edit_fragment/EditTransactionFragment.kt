@@ -131,7 +131,7 @@ class EditTransactionFragment : Fragment() {
             "FOOD" -> TransactionCategory.FOOD
             "OTHERS" -> TransactionCategory.OTHERS
             "HOUSEHOLD" -> TransactionCategory.HOUSEHOLD
-            "TRANSPORTATION " -> TransactionCategory.TRANSPORTATION
+            "TRANSPORTATION" -> TransactionCategory.TRANSPORTATION
             else -> TransactionCategory.OTHERS
 
         }
